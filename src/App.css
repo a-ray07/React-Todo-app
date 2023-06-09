@@ -1,0 +1,196 @@
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .flex-box{
+    background-image: linear-gradient(to bottom right, rgb(254, 254, 254), rgb(19, 2, 249));
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .flex-box > div {
+    margin: 2px;
+    background-color: aliceblue;
+  
+  }
+  
+  .side-bar{
+    background-color: aliceblue;
+    height: 685px;
+    width: 350px;
+  }
+  
+  .main-frame{
+    background-color: aliceblue;
+    height: 655px;
+    width: 1275px;
+    padding: 15px;
+  }
+  
+  .num{
+    padding-top: 10px;
+    font-size: 16px;
+    padding-left: 17px;
+  }
+  
+  ol {
+    list-style: none;
+    counter-reset: item;
+    padding-left: 5px;
+  }
+  li {
+    counter-increment: item;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  li:before {
+    margin-right: 10px;
+    content: counter(item);
+    background: lightblue;
+    border-radius: 100%;
+    color: white;
+    width: 1.2em;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .hh{
+    padding-left: 15px;
+    padding-top: 25px;
+    font-size: 23px;
+  }
+  
+  .hdr-name{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-size: 25px;
+  }
+  
+  .hdr{
+    height: 45px;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 12px;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom right, rgb(233, 10, 10), rgb(233, 162, 162));
+  }
+  
+  *{
+    margin: 0px;
+    padding: 0%;
+  }
+  
+  .inp{
+    font-size: 15px;
+    margin-right: 10px;
+    margin-left: 5px;
+    border-radius: 3px;
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  .btn{
+    border-radius: 3px;
+    border-width: 3px;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .main-frame {
+    margin-top: 20px;
+  }
+  
+  .main-frame h2 {
+    font-size: 25px;
+    padding-top: 12px;
+  }
+  
+  .main-frame h3 {
+    font-size: 19px;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-weight: lighter;
+  }
+  
+  .main-frame ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .inp-task{
+    border-radius: 3px;
+    flex-grow: 1;
+    padding: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  .main-frame li {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+  }
+  
+  .main-frame button {
+    margin-left: 15px;
+    padding: 4px 8px;
+    border: none;
+    font-weight: bolder;
+    border-radius: 4px;
+  
+    cursor: pointer;
+  }
+  
+  .main-frame button:hover {
+    background-color: #f1f1f1;
+  }
+  
+  
+  .side-bar h3.hdr-name {
+    color: #4caf50;
+    font-weight: bold;
+  }
+  
+  .main-frame h3 {
+    color: #4caf50;
+    font-weight: bold;
+  }
+  
+  .main-frame li {
+    position: relative;
+  }
+  
+  .main-frame li .inp-task {
+    display: none;
+  }
+  
+  .del-btn{
+    color: red;
+    background-color:  rgb(216, 227, 210);
+  }
+
+  .done-btn{
+    color: green;
+    background-color: rgb(216, 227, 210);
+  }
+
+ 
+  
+  
+  
+  
